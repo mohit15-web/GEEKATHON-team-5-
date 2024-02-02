@@ -108,6 +108,30 @@
   opacity: 0.45;
   transform: translateX(15%);
 }
+.home-text .latest-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text .latest-button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #9000e8;
+  margin-top: 2rem;
+  margin-right: 6rem;
+  height: 24%;
+  border-radius: 30px;
+
+}
+.home-text .latest-button button {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+}
 
 /* latest news */
 .latest-news {
@@ -122,10 +146,11 @@
 }
 .latest-news .cards {
   width: 90%;
-  margin: 1rem auto;
+  margin: auto;
   display: flex;
   /* justify-content: space-around; */
   align-items: center;
+  padding-bottom: 4rem;
 }
 .latest-news .card {
   display: flex;
@@ -146,16 +171,20 @@
   align-items: center;
 }
 .latest-button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid #29f4d4;
   margin-top: 2rem;
-  margin-right: 5rem;
-  height: 20%;
+  margin-right: 6rem;
+  height: 24%;
+  border-radius: 30px;
 
 }
-.latest-button button {
-  /* padding: 0.5rem 0.4rem; */
+.latest-news .latest-button button {
   margin: 1rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   background-color: transparent;
   border: none;
@@ -164,8 +193,8 @@
   color: #29f4d4;
   padding: 1rem 0;
 }
-.card p {
-  font-size: 1.6rem;
+.cards .card p {
+  font-size: 1.2rem;
   font-weight: 800;
   line-height: 30px;
 }
@@ -173,51 +202,113 @@
 
 /* spotlight */
 .spotlight {
-    background-color: #038566;
+    background-color: #00E0FF;
     width: 100%;
   }
   .spotlight-head h1 {
     font-size: 4rem;
-    color: #29f4d4;
-    padding-left: 5.2rem;
+    color: #05016C;
+    padding-left: 5.9rem;
     padding-top: 5rem;
   }
-  .spotlight .cards {
+  .spotlight-cards{
     width: 90%;
-    margin: 1rem auto;
+    margin: auto;
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
+    padding-bottom: 1rem;
   }
-  .spotlight .card {
+  .spotlight-cards .card {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 33%;
+    width: 20%;
+    height: 600px;
     margin: 1rem;
     padding: 1rem 0;
     /* border: 2px solid #29f4d4; */
   }
-  .spotlight .cards img {
+  .spotlight-cards img {
     width: 100%;
     height: auto;
   }
-  /* .latest-news .latest-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  } */
-
-  .card p {
-    font-size: 1.6rem;
-    font-weight: 800;
-    line-height: 30px;
+ 
+  .spotlight-cards .card h2 {
+    color: #05016C;
+    font-size: 1.3rem;
+    font-weight: 750;
+    /* line-height: 30px; */
+    margin-top: 1rem;
   }
+
+  .spotlight-cards .card p {
+    color: #1b178ee1;
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+/* work with us begins */
+.earth{
+  padding-top: 4rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  position: relative;
+  background-image: url(./images/careers-background.jpg);
+  background-size: cover;
+  /* overflow: hidden; */
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.earth-left{
+  width: 45%;
+}
+.earth-right{
+  width: 50%;
+}
+.earth h1{
+    font-size: 4rem;
+    color: #00E0FF;
+    /* padding-left: 0.5rem; */
+    padding-top: 5rem;
+} 
+.earth p {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+.earth-left span{
+  font-size: 1.6rem;
+  margin: 10rem 0;
+  color: #00E0FF;
+}
+.earth-button {
+  width: 40%;
+  height: 6%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #29f4d4;
+  margin-top: 2rem;
+  margin-right: 6rem;
+  border-radius: 30px;
+
+}
+.earth-button button {
+  margin: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+}
 
 /* footer */
 .footer {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  /* margin: auto; */
   background-color: #05016c;
   padding: 3rem 0;
 }
