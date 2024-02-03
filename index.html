@@ -4,14 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="icon" href="images/warner-bros-discovery-logo-horizontal-white.svg"> -->
-    <!-- <link rel="canonical" href="https://wbd.com/"> -->
     <link rel="icon" type="" href="mohit/images/Warner_favicon.svg">
     <title>Warner Bros. Discovery</title>
     <link rel="stylesheet" href="./mohit/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        .main-carousel {
+            width: 100%;
+            height: 500px;
+            margin-right: 10px;
+        }
+
+        .main-carousel img {
+            width: 100%; 
+            height: 500px; 
+        }
+
+        .main-carousel .flickity-prev-next-button {
+            background-color: #3498db; 
+            color: #fff; 
+        }
+        .main-carousel .flickity-prev-next-button:hover {
+            background-color: #2980b9; 
+        }
+
+        .main-carousel2 {
+            width: 100%;
+            height: 500px;
+            margin-right: 2rem 0;
+        }
+
+        .main-carousel2 img {
+            width: 100%; 
+            height: 350px;
+        }
+        .main-carousel2 .flickity-prev-next-button {
+            background-color: #3498db; 
+            color: #fff; 
+        }
+        
+        .main-carousel2 .flickity-prev-next-button:hover {
+            background-color: #2980b9; 
+        }
+        .arrow{
+            margin-right:10px;
+            font-size: 1rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -30,7 +74,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg></span>
                 </li>
-                <li>Our Brands</li>
+                <li>Our Brands
+                    
+                </li>
                 <li>NewsRooms</li>
                 <li>Careers</li>
                 <li>Investor Relations</li>
@@ -50,52 +96,63 @@
             <source src="https://wbd.com/wp-content/themes/warner-bros-discovery-corporate/video/wbd-hero-animation_24.webm" type="video/webm">
         </video>
         <div class="home-text">
-            <div class="latest-head">
-                <h1>Latest News</h1>
-                <div class="latest-button">
-                    <button>view all News</button>
-                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" style="width: 20px;">
+            <div class="home-head">
+                <h1 data-aos="fade-up">Our Company</h1>
+                <div class="home-button" data-aos="fade-up">
+                    <button>view all Brands</button>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 arrow" style="width: 30px;">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                       </svg>
                       </span>
                 </div>
             </div>
             <div class="home-left">
-                <p>Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world’s most differentiated and complete portfolio of content and brands across television, film and streaming. Available in more than 220 countries and territories and 50 languages, Warner Bros. Discovery inspires, informs and entertains audiences worldwide through its iconic brands and products including: Discovery Channel, Max, discovery+, CNN, DC, Eurosport, HBO, HGTV, Food Network, OWN, Investigation Discovery, TLC, Magnolia Network, TNT, TBS, truTV, Travel Channel, MotorTrend, Animal Planet, Science Channel, Warner Bros. Motion Picture Group, Warner Bros. Television Group, Warner Bros. Pictures Animation, Warner Bros. Games, New Line Cinema, Cartoon Network, Adult Swim, Turner Classic Movies, Discovery en Español, Hogar de HGTV and others.</p>
+                <p data-aos="fade-up">Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world’s most differentiated and complete portfolio of content and brands across television, film and streaming. Available in more than 220 countries and territories and 50 languages, Warner Bros. Discovery inspires, informs and entertains audiences worldwide through its iconic brands and products including: Discovery Channel, Max, discovery+, CNN, DC, Eurosport, HBO, HGTV, Food Network, OWN, Investigation Discovery, TLC, Magnolia Network, TNT, TBS, truTV, Travel Channel, MotorTrend, Animal Planet, Science Channel, Warner Bros. Motion Picture Group, Warner Bros. Television Group, Warner Bros. Pictures Animation, Warner Bros. Games, New Line Cinema, Cartoon Network, Adult Swim, Turner Classic Movies, Discovery en Español, Hogar de HGTV and others.</p>
             </div>
-            <!-- <div class="home-right">
-                <img src="images/our-global-brands-background.svg" alt="">
-            </div> -->
+        </div>
+        <div class="home-right">
         </div>
     </div>
 
     <!-- latest news -->
     <div class="latest-news">
         <div class="latest-head">
-            <h1>Latest News</h1>
-            <div class="latest-button">
+            <h1 data-aos="fade-up">Latest News</h1>
+            <div class="latest-button" data-aos="fade-up">
                 <button>view all News</button>
-                <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" style="width: 20px;">
+                <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 arrow" style="width: 20px;">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                   </svg>
                   </span>
             </div>
         </div>
-        <div class="cards">
-            <div class="card">
-                <img src="mohit/images/card1.jpg" alt="">
-                <span>JANUARY 31, 2024·</span>
-                <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
-            </div>
-            <div class="card">
-                <img src="mohit/images/card1.jpg" alt="">
-                <span>JANUARY 31, 2024·</span>
-                <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
-            </div>
-            <div class="card">
-                <img src="mohit/images/card1.jpg" alt="">
-                <span>JANUARY 31, 2024·</span>
-                <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
+        <div class="cards" data-aos="fade-up">
+            <div class="main-carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "wrapAround": true, "autoPlay":1500}'>
+                <div class="card">
+                    <img src="mohit/images/card1.jpg" alt="">
+                    <span>JANUARY 31, 2024·</span>
+                    <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
+                </div>
+                <div class="card">
+                    <img src="mohit/images/wb-motion-pictures-group-16x9-1-1200x675 (1).webp" alt="">
+                    <span>JANUARY 31, 2024·</span>
+                    <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
+                </div>
+                <div class="card">
+                    <img src="mohit/images/card1.jpg" alt="">
+                    <span>JANUARY 31, 2024·</span>
+                    <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
+                </div>
+                <div class="card">
+                    <img src="mohit/images/card1.jpg" alt="">
+                    <span>JANUARY 31, 2024·</span>
+                    <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
+                </div>
+                <div class="card">
+                    <img src="mohit/images/card1.jpg" alt="">
+                    <span>JANUARY 31, 2024·</span>
+                    <p>Warner Bros. Discovery To Report Fourth-Quarter And Full-Year 2023 Results On Friday, February 23</p>
+                </div>
             </div>
         </div>
     </div>
@@ -103,9 +160,10 @@
      <!-- spotlight -->
      <div class="spotlight">
         <div class="spotlight-head">
-            <h1>Spotlight</h1>
+            <h1 data-aos="fade-up">Spotlight</h1>
         </div>
-        <div class="spotlight-cards">
+        <div class="spotlight-cards" data-aos="fade-up">
+        <div class="main-carousel2" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "wrapAround": true, "autoPlay":1500}'>
             <div class="card">
                 <img src="mohit/images/spotlight1.jpeg" alt="">
                 <h2>True Detective: Night Country</h2>
@@ -132,14 +190,30 @@
                 <h2>Wonka</h2>
                 <p>Now Playing Only in Theaters.</p>
             </div>
+            <div class="card">
+                <img src="mohit/images/spotlight6.jpg" alt="">
+                <h2>Wonka</h2>
+                <p>Now Playing Only in Theaters.</p>
+            </div>
+            <div class="card">
+                <img src="mohit/images/spotlight7.jpg" alt="">
+                <h2>Wonka</h2>
+                <p>Now Playing Only in Theaters.</p>
+            </div>
+            <div class="card">
+                <img src="mohit/images/spotlight8.jpg" alt="">
+                <h2>Wonka</h2>
+                <p>Now Playing Only in Theaters.</p>
+            </div>
+        </div>
         </div>
     </div>
 
   <!-- work with us begins  -->
   <div class="earth">
     <div class="earth-left">
-        <h1>Work With Us</h1>
-        <p>The makers, the storytellers, the world's greatest creators. We're bringing together the scripted and the unscripted, the local and the global, the timely and the timeless. Taking the world's greatest possibilities and making them a reality. Creating impact, inspiring imagination, and building connections. Here you can succeed, here you are supported, here you are celebrated. <br><br>
+        <h1 data-aos="fade-up">Work With Us</h1>
+        <p data-aos="fade-up">The makers, the storytellers, the world's greatest creators. We're bringing together the scripted and the unscripted, the local and the global, the timely and the timeless. Taking the world's greatest possibilities and making them a reality. Creating impact, inspiring imagination, and building connections. Here you can succeed, here you are supported, here you are celebrated. <br><br>
 
             Warner Bros. Discovery hires talent across the globe and offers career-defining positions, carefully curated benefits, and the tools to realize your best self. <br><br>
             
@@ -211,6 +285,16 @@
             <span>All trademarks are the property of their respective owners. All rights reserved.</span>
         </div>
     </div>
+
+
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>
