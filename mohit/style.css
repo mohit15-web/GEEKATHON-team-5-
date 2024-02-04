@@ -132,7 +132,24 @@
   background-color: transparent;
   border: none;
 }
-
+/* slider */
+.home-slider{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 4rem;
+  background-color: #05016C;
+}
+.home-slider .card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 33%;
+  margin: 1rem;
+  padding: 1rem 0;
+  /* border: 2px solid #29f4d4; */
+}
 
 
 /* latest news */
@@ -218,7 +235,7 @@
     padding-top: 5rem;
   }
   .spotlight-cards{
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     padding-bottom: 1rem;
