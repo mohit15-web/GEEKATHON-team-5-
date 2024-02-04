@@ -91,6 +91,64 @@
 .career-input input::placeholder{
     font-size: 1.2rem;
 }
-.search-box .career-input button{
-    
+
+/* career - text */
+.home-text {
+  width: 100%;
+  z-index: -2;
+  background-color: #05016c;
+  position: relative;
+}
+.home-left {
+  width: 50%;
+}
+.home-content .home-text h1 {
+  color: #9000e8;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+.home-content .home-text p {
+  font-size: 1.5rem;
+  line-height: 41px;
+}
+
+.home-content .home-right{
+  position: absolute;
+  width: 60%;
+  height: 120%;
+  background: transparent url(images/our-global-brands-background.svg) no-repeat;
+  top: 30%;
+  /* bottom: 0; */
+  right: 0;
+  background-size: contain;
+  z-index: -1;
+  overflow: hidden;
+  opacity: 0.45;
+  transform: translateX(15%);
+}
+.home-text .home-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text .home-button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #29f4d4;
+  margin-top: 2rem;
+  margin-right: 6rem;
+  height: 24%;
+  border-radius: 30px;
+  position: relative;
+  top: -18px;
+
+}
+.home-text .home-button button {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
 }
