@@ -66,89 +66,362 @@
   top: 450px;
   margin: 0 2rem;
 }
-.search-box h1{
-    font-size: 3.5rem;
-    padding: 1rem 0;
+.search-box h1 {
+  font-size: 3.5rem;
+  padding: 1rem 0;
 }
 .career-input {
-    display: flex;
+  display: flex;
 }
-.search-box .career-input input{
-    padding: 20px;
-    width: 80%;
-    border: 2px solid blue;
-    border-right: none;
+.search-box .career-input input {
+  padding: 20px;
+  width: 80%;
+  border: 2px solid blue;
+  border-right: none;
 }
-.search-box .career-input button{
-    padding: 20px;
-    width: 20%;
-    border: 1px solid #29f4d4;
-    background-color: blue;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.career-input input::placeholder{
-    font-size: 1.2rem;
+.search-box .career-input button {
+  padding: 20px;
+  width: 20%;
+  border: 1px solid #29f4d4;
+  background-color: blue;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-/* career - text */
-.home-text {
+.career-input input::placeholder {
+  font-size: 1.2rem;
+}
+.search-box .career-input button {
+}
+
+/* career - our company text */
+.career-text {
   width: 100%;
-  z-index: -2;
   background-color: #05016c;
   position: relative;
+  top: -95px;
 }
-.home-left {
-  width: 50%;
-}
-.home-content .home-text h1 {
-  color: #9000e8;
-  font-size: 4rem;
-  margin: 1rem 0;
-}
-.home-content .home-text p {
-  font-size: 1.5rem;
-  line-height: 41px;
-}
-
-.home-content .home-right{
-  position: absolute;
-  width: 60%;
-  height: 120%;
-  background: transparent url(images/our-global-brands-background.svg) no-repeat;
-  top: 30%;
-  /* bottom: 0; */
-  right: 0;
-  background-size: contain;
-  z-index: -1;
-  overflow: hidden;
-  opacity: 0.45;
-  transform: translateX(15%);
-}
-.home-text .home-head {
+.career-text .text-head {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.home-text .home-button {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #29f4d4;
+/* .text-head-left{
+  padding: 1rem;
+} */
+.text-head h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 8rem;
+  margin-left: -4rem;
+}
+.career-text .text-button {
+  border: 1px solid #29f4d4;
   margin-top: 2rem;
-  margin-right: 6rem;
-  height: 24%;
-  border-radius: 30px;
+  width: 15%;
   position: relative;
   top: -18px;
-
+  text-align: center;
 }
-.home-text .home-button button {
+.career-text .text-button button {
   margin: 1rem;
   font-size: 1rem;
   font-weight: 700;
   background-color: transparent;
   border: none;
+}
+.career-left {
+  z-index: 1;
+  width: 70%;
+  margin: auto;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+.career-text h1 {
+  color: #9000e8;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+.career-text p {
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 31px;
+}
+
+.career-text .career-right {
+  position: absolute;
+  width: 37%;
+  height: 55%;
+  background: transparent url(images/our-global-brands-background.svg) no-repeat;
+  top: 25%;
+  right: -5%;
+  background-size: contain;
+  z-index: 2;
+  overflow: hidden;
+  opacity: 0.45;
+  transform: translateX(15%);
+}
+
+.career-text .text-button:hover {
+  background-color: white;
+  border: none;
+  color: #05016c;
+}
+button:hover {
+  color: #05016c;
+}
+
+/* careeer page 2 */
+.career-page2 {
+  width: 100%;
+  background-color: #00e1fe;
+  /* position: relative;
+  top: -110px; */
+}
+.career-page2 .content {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+.career-page2 .content h1 {
+  color: #05016c;
+  padding: 2rem 0;
+  font-size: 4.5rem;
+}
+.career-page2 .content img {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+/* career - page 3 */
+.career-page3 {
+  width: 100%;
+  background: url(images/careers-background.jpg) no-repeat;
+  background-position: center;
+  height: auto;
+  padding: 1rem 7rem;
+  position: relative;
+  /* padding-bottom: 5rem; */
+}
+.career-page3 .header h1 {
+  color: #00e1fe;
+  font-size: 4rem;
+  width: 40%;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+.career-page3 .left {
+  width: 50%;
+  position: relative;
+  left: -2.9rem;
+  top: -3rem;
+}
+.career-page3 .text .left p {
+  font-size: 1.8rem;
+}
+.career-page3 .right {
+  width: 20%;
+  position: relative;
+  top: -100px;
+  left: 100px;
+  border: 1px solid #29f4d4;
+  background-color: #05016c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career-page3 .text {
+  display: flex;
+  align-items: center;
+}
+.career-page3 .right button {
+  margin: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+}
+.career-page3 .right:hover {
+  color: #05016c;
+  background-color: white;
+}
+/* .career-page3 .right svg:hover{
+  color: #05016c;
+  background-color: white;
+} */
+
+/* slider */
+.career-slider {
+  width: 100%;
+  height: 70vh;
+}
+.career-slider .card {
+  width: 100%;
+  height: 100%;
+}
+
+/* storytelller */
+.career-page4 {
+  width: 100%;
+  padding: 2rem 9rem;
+}
+.career-page4 h1 {
+  color: #05016c;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+.career-page4 .teller {
+  width: 30%;
+  border: 1px solid rgba(128, 128, 128, 0.506);
+  padding: 1.3rem;
+  margin: 1rem;
+}
+.career-page4 .storyteller {
+  display: flex;
+}
+.career-page4 .teller img {
+  width: 100%;
+}
+.career-page4 .teller h3 {
+  color: #05016c;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+.career-page4 .teller p {
+  color: rgba(128, 128, 128, 0.907);
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  /* margin-bottom: 7rem; */
+}
+
+.career-page4 .teller h4 {
+  color: rgba(128, 128, 128, 0.6);
+  font-size: 1rem;
+  font-weight: 800;
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+.career-page4 .teller .sep {
+  color: rgba(128, 128, 128, 0.6);
+  font-size: 1rem;
+  font-weight: 800;
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+.career-page4 .teller:hover {
+  border: 2px dotted black;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.career-page4 .btn-center button {
+  margin: 1rem;
+  height: 50px;
+  width: 15%;
+  font-size: 1.4rem;
+  background-color: #05016c;
+  font-weight: 700;
+  border: 2px solid #00e1fe;
+}
+.career-page4 .btn-center button:hover {
+  color: #05016c;
+  background-color: white;
+}
+
+/* career- pag5 */
+.career-page5 {
+  background-color: #9100e9;
+  display: flex;
+  width: 100%;
+  padding: 1rem 10%;
+}
+.career-page5 .left-head {
+  width: 40%;
+  padding-top: 6rem;
+}
+
+.career-page5 .right-iframe {
+  width: 40%;
+  margin-left: 7rem;
+}
+.twitter-logo {
+  font-size: 2rem;
+}
+.career-page5 .left-head h1 {
+  font-size: 4rem;
+  padding: 1rem 0;
+}
+.career-page5 .left-head .brand {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+
+.career-brand-logo {
+  background-color: #9100e9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 8rem;
+  padding: 4rem 0;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  /* margin: auto; */
+  background-color: #05016c;
+  padding: 3rem 0;
+}
+.footer .socials {
+  margin-bottom: 0;
+  padding: 1.5rem 0;
+}
+.footer .socials ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer .socials ul li {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem 0;
+}
+.text ul {
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 28px;
+  font-size: 0.8rem;
+}
+.text-logo img {
+  height: 150px;
+  width: 250px;
+}
+.footer .bottom-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.5rem;
+  line-height: 15px;
 }
