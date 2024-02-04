@@ -129,3 +129,34 @@ body {
 }
 
 /* navbar styling ends here  */
+
+section.leadership {
+  width: 90%;
+  max-width: 2000px;
+  margin: 0 auto;
+  /* border: 2px solid #000; */
+  padding: 6rem 0 4rem;
+}
+ul.tabs-navigation > li > a {
+  color: #fff;
+  display: block;
+  padding-bottom: 2rem;
+}
+body {
+  background-color: #015cfe;
+}
+.tabs-navigation li {
+  margin: 0 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.tabs-navigation {
+  margin-left: 18px;
+  margin-bottom: 102px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  color: rgb(255, 255, 255);
+}
