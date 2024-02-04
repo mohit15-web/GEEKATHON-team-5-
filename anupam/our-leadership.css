@@ -156,24 +156,6 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1280px) {
-  .main-navigation {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 512px) {
-  .stock-price .stock_quote {
-    display: none;
-  }
-}
-
 /* navbar styling ends here  */
 
 section.leadership {
@@ -203,4 +185,114 @@ body {
   justify-content: center;
   border-bottom: 2px solid rgba(255, 255, 255, 0.25);
   color: rgb(255, 255, 255);
+}
+
+/* cards  */
+.corporate-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 3rem;
+}
+.leader {
+  position: relative;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  background-color: #04006c;
+  display: flex;
+  flex-direction: column;
+}
+div.leader::after {
+  content: "";
+  width: 80%;
+  padding-top: 80%;
+  position: absolute;
+  background: transparent
+    url("https://wbd.com/wp-content/themes/warner-bros-discovery-corporate/img/warner-bros-discovery-mark-00e0ff.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.05;
+  transform: translate(33%, 33%);
+  background-position: 0 0;
+  bottom: 0;
+  right: 0;
+}
+.leader-data {
+  order: 3;
+}
+.leader-photo {
+  position: relative;
+}
+.leader-photo a {
+  overflow: hidden;
+  display: block;
+}
+.leader-photo a > img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.leader-photo a > img:hover {
+  transform: scale(1.05);
+}
+.leader-photo::after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(4, 0, 108);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 0, 108, 1) 0%,
+    rgba(4, 0, 108, 0) 100%
+  );
+  opacity: 0.45;
+}
+.leader-name {
+  font-size: 2rem;
+  line-height: 1.1;
+  padding-left: 1rem;
+  transform: translateY(-25%);
+  color: white;
+}
+.leader-name .first-name {
+  font-size: 2.2rem;
+  display: block;
+  font-weight: 500;
+}
+.leader-name .last-name {
+  font-size: 2.2rem;
+  display: block;
+  font-weight: 500;
+}
+.leader-title {
+  color: #00e0ff;
+  padding-left: 1rem;
+}
+.leader-title-2 {
+  color: #00e0ff;
+  padding-left: 1rem;
+}
+
+/* media queries  */
+@media screen and (max-width: 1280px) {
+  .main-navigation {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .stock-price .stock_quote {
+    display: none;
+  }
 }
