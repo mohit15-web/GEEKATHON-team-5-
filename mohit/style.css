@@ -6,10 +6,13 @@
   /* background-color: #05016C; */
   color: white;
 }
-html{
+/* html{
   background: #000 !important;
   color: #0f0 !important;
   outline:solid  #f00 1px !important;
+} */
+body{
+  overflow-x: hidden;
 }
 .navbar {
   display: flex;
