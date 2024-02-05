@@ -6,6 +6,11 @@
   /* background-color: #05016C; */
   color: white;
 }
+html{
+  background: #000 !important;
+  color: #0f0 !important;
+  outline:solid  #f00 1px !important;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -13,9 +18,52 @@
   width: 100%;
   background-color: #05016c;
   padding-left: 1rem;
-  position: fixed;
+  position: sticky;
+  top: 0;
   transition: background-color 0.3s ease;
   z-index: 200;
+}
+@media only screen and (max-width: 768px) {
+  .nav-tags {
+    display: none;
+  }
+  .home-content .home-text h1 {
+    color: #9000e8;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .home-content .home-text p {
+    font-size: 1.5rem;
+    /* line-height: 41px; */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-tags {
+    display: none;
+  }
+  .home-content .home-text h1 {
+    color: #9000e8;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .home-content .home-text p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav-tags {
+    display: none;
+  }
+  .home-content .home-text h1 {
+    color: #9000e8;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .home-content .home-text p {
+    font-size: 1.5rem;
+    /* line-height: 41px; */
+  }
 }
 .navbar .nav-tags {
   margin-left: -14rem;
