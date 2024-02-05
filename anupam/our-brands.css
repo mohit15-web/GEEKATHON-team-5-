@@ -41,6 +41,14 @@ a {
   margin-right: 62px;
   text-align: left;
 }
+.navlinks ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  margin-inline: 12px;
+}
+.navlinks ul li a i {
+  font-size: 13px;
+}
 .logo {
   width: 204px;
   margin-left: 2rem;
@@ -53,11 +61,7 @@ a {
   margin-bottom: 0;
   font-weight: normal;
 }
-.navlinks ul li a {
-  font-size: 18px;
-  font-weight: 500;
-  margin-inline: 12px;
-}
+
 .status {
   position: absolute;
   right: 0;
