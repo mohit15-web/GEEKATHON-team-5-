@@ -152,6 +152,7 @@ a{
     
 }
 .extra{
+    justify-content: center;
     background-color: transparent;
     height: 10%;
     width:10%;
