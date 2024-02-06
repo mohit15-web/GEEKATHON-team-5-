@@ -12,9 +12,9 @@
   color: #0f0 !important;
   outline:solid  #f00 1px !important;
 } */
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 /* navbar css */
 
@@ -86,6 +86,7 @@ body {
 .heading2 {
   width: 100%;
   display: flex;
+
 }
 .heading2 .left {
   width: 50%;
@@ -123,8 +124,13 @@ body {
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  margin: 1rem 0;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  margin-top: 1rem;
+}
+.first .content-text{
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
 }
 .first .first-content .content-logo{
     margin-right: 1rem;
