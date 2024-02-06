@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,7 +85,7 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
-        .dropdown-content a {
+        .dropdown-content .dropdown-tags {
             padding: 12px 16px;
             color: #2980b9;
             text-decoration: none;
@@ -102,40 +103,65 @@
 
 <body>
 
-    <!-- NAVBAR -->
-    <div class="navbar">
-        <div class="nav-logo">
-            <img src="mohit/images/warner-bros-discovery-logo-horizontal-white.svg" alt="Warner Bros. Discovery">
+    <!-- navbar starts -->
+    <header class="header site-header">
+        <div class="logo">
+            <a href="https://wbd.com/">
+                <img src="https://wbd.com/wp-content/themes/warner-bros-discovery-corporate/img/warner-bros-discovery-logo-horizontal-white.svg"
+                    alt="Warner Bros. Discovery" />
+            </a>
         </div>
-        <div class="nav-tags">
-            <ul>
-                <li><a href="#">Our Leadership</a></li>
-                <li class="li-icon">Our Values <span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"
-                            style="width: 20px;">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg></span>
+
+        <button class="mobile-menu-button">
+            <span class="screen-reader-text">Menu</span>
+            <span class="bar bar--1"></span>
+            <span class="bar bar--2"></span>
+            <span class="bar bar--3"></span>
+        </button>
+
+        <nav class="main-navigation">
+            <ul id="main-menu">
+                <li class="menu-item">
+                    <a href="./anupam/our-leaderships.html">Our Leadership</a>
+                </li>
+                <li class="menu-item li-icon">
+                    <a href="#">Our Values
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
                     <div class="dropdown-content">
-                        <a href="#">Guiding Principle</a>
-                        <a href="#">DEI</a>
-                        <a href="#">ESG</a>
+                        <a href="#" class="dropdown-tags" style="color: #2980b9;">Guiding Principle</a>
+                        <a href="#" class="dropdown-tags" style="color: #2980b9;">DEI</a>
+                        <a href="#" class="dropdown-tags" style="color: #2980b9;">ESG</a>
                     </div>
                 </li>
-                <li><a href="#">Our Brands</a>
-
+                <li class="menu-item">
+                    <a href="./anupam/our-brands.html">Our Brands</a>
                 </li>
-                <li><a href="#">NewsRooms</a></li>
-                <li><a href="./mohit/career.html">Careers</a></li>
-                <li><a href="#">Investor Relations</a></li>
+                <li class="menu-item">
+                    <a href="./Rajat/newsroom.html">Newsroom</a>
+                </li>
+                <li class="menu-item">
+                    <a href="mohit/career.html">Careers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://ir.wbd.com/">Investor Relations</a>
+                </li>
             </ul>
-        </div>
-        <div class="nav-tags2">
-            <span>WBD</span>
-            <span class="num">10.02</span>
-            <span class="red">-0.08</span>
-        </div>
-    </div>
+        </nav>
 
+        <div class="stock-price">
+            <div class="nav-tags2">
+                <span>WBD</span>
+                <span class="num">10.02</span>
+                <span class="red">-0.08</span>
+            </div>
+            <div class="hamburger">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
+        </div>
+    </header>
     <!-- home -->
     <div class="home-content">
         <video class="home-video" loop autoplay muted playsinline>
@@ -286,13 +312,6 @@
                     <p>Now Playing Only in Theaters..</p>
                 </div>
                 <div class="card">
-                    <img src="mohit/images/spotlight7.jpg" alt="">
-                    <h2>Celebrity IOU</h2>
-                    <p>New episodes Mondays at 8pm ET on HGTV.
-
-                    </p>
-                </div>
-                <div class="card">
                     <img src="mohit/images/spotlight8.jpg" alt="">
                     <h2>Fixer Upper: The Hotel</h2>
                     <p>Streaming on Max.</p>
@@ -326,7 +345,7 @@
             </div>
         </div>
         <div class="earth-right">
-            <img src="mohit/images/download.png" alt="">
+            <img src="mohit/images/download (1).png" alt="" width="100%">
         </div>
     </div>
 

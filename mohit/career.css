@@ -11,6 +11,8 @@
   color: #0f0 !important;
   outline:solid  #f00 1px !important;
 } */
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -63,6 +65,13 @@
 }
 
 /* career-vide  */
+.video-container{
+  max-width: 100%;
+}
+.video-container video{
+  width: 100%;
+  height: 100%;
+}
 .career-video {
   position: relative;
   height: 95vh;
