@@ -45,7 +45,7 @@
         }
 
         .main-carousel2 .flickity-prev-next-button {
-            background-color: #3498db;
+            background-color: #05016c;
             color: #fff;
         }
 
@@ -60,15 +60,17 @@
         }
 
         .main-carousel3 .flickity-prev-next-button {
-            background-color: #3498db;
+            background-color: #05016c;
             color: #fff;
         }
 
         .main-carousel2 .flickity-prev-next-button:hover {
-            background-color: #2980b9;
+            background-color: #05016c;
+
         }
 
         .arrow {
+            padding-top: 5px;
             margin-right: 10px;
             font-size: 1rem;
         }
@@ -84,7 +86,7 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
-        .dropdown-content a {
+        .dropdown-content .dropdown-tags {
             padding: 12px 16px;
             color: #2980b9;
             text-decoration: none;
@@ -101,6 +103,8 @@
 </head>
 
 <body>
+
+    <!-- navbar starts -->
     <header class="header site-header">
         <div class="logo">
             <a href="https://wbd.com/">
@@ -119,42 +123,39 @@
         <nav class="main-navigation">
             <ul id="main-menu">
                 <li class="menu-item">
-                    <a href="/leadership/">Our Leadership</a>
+                    <a href="./anupam/our-leaderships.html">Our Leadership</a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item li-icon">
                     <a href="#">Our Values
                         <i class="fa-solid fa-angle-down"></i>
                     </a>
-                    <ul class="sub-menu">
-                        <li class="menu-item">
-                            <a href="https://wbd.com/guiding-principles/">Guiding Principles</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="https://wbd.com/dei/">DEI</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="https://wbd.com/esg/">ESG</a>
-                        </li>
-                    </ul>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-tags" style="color: #2980b9;">Guiding Principle</a>
+                        <a href="./Rajat/dei.html" class="dropdown-tags" style="color: #2980b9;">DEI</a>
+                        <a href="./shubham/esg/esg.html" class="dropdown-tags" style="color: #2980b9;">ESG</a>
+                    </div>
                 </li>
                 <li class="menu-item">
-                    <a href="https://wbd.com/our-brands/">Our Brands</a>
+                    <a href="./anupam/our-brands.html">Our Brands</a>
                 </li>
                 <li class="menu-item">
-                    <a href="https://wbd.com/newsroom/">Newsroom</a>
+                    <a href="./Rajat/newsroom.html">Newsroom</a>
                 </li>
                 <li class="menu-item">
-                    <a href="https://wbd.com/careers/">Careers</a>
+                    <a href="mohit/career.html">Careers</a>
                 </li>
                 <li class="menu-item">
-                    <a href="https://ir.wbd.com/">Investor Relations</a>
+                    <a href="./mohit/investorRelations.html">Investor Relations</a>
                 </li>
             </ul>
         </nav>
 
         <div class="stock-price">
-            <span class="stock_quote sqitem plus"><span class="stock-price__symbol">WBD</span><span
-                    class="stock-price__price"> 10.46</span><span class="stock-price__change"> +0.44</span></span>
+            <div class="nav-tags2">
+                <span>WBD</span>
+                <span class="num">10.02</span>
+                <span class="red">-0.08</span>
+            </div>
             <div class="hamburger">
                 <div class="line" id="line1"></div>
                 <div class="line" id="line2"></div>
@@ -174,12 +175,12 @@
                 type="video/webm">
         </video>
         <div class="home-text">
-            <div class="home-head">
+            <div class="home-head" style="z-index: 100;">
                 <h1 data-aos="fade-up">Our Company</h1>
-                <div class="home-button" data-aos="fade-up">
-                    <button>view all Brands</button>
+                <div class="home-button" data-aos="fade-up" style="z-index: 100;">
+                    <button style="z-index: 100;">view all Brands</button>
                     <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="w-6 h-6 arrow" style="width: 30px;">
+                            stroke="currentColor" class="w-6 h-6 arrow" style="width: 35px;">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                         </svg>
@@ -313,13 +314,6 @@
                     <p>Now Playing Only in Theaters..</p>
                 </div>
                 <div class="card">
-                    <img src="mohit/images/spotlight7.jpg" alt="">
-                    <h2>Celebrity IOU</h2>
-                    <p>New episodes Mondays at 8pm ET on HGTV.
-
-                    </p>
-                </div>
-                <div class="card">
                     <img src="mohit/images/spotlight8.jpg" alt="">
                     <h2>Fixer Upper: The Hotel</h2>
                     <p>Streaming on Max.</p>
@@ -345,7 +339,7 @@
             <div class="earth-button">
                 <button>Search Careers</button>
                 <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6" style="width: 25px; font-weight:bold;">
+                        stroke="currentColor" class="w-6 h-6 earth-arrow" style="width: 25px; font-weight:bold;">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                     </svg>
@@ -353,7 +347,7 @@
             </div>
         </div>
         <div class="earth-right">
-            <img src="mohit/images/download.png" alt="">
+            <img src="mohit/images/download (1).png" alt="" width="100%">
         </div>
     </div>
 

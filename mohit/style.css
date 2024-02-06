@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -168,55 +170,239 @@ body {
 body {
   overflow-x: hidden;
 }
-.navbar {
+
+/* navbar css */
+.mobile-menu-button {
+  display: none;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:link {
+  color: #015cfe;
+}
+div {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+ul,
+ol {
+  list-style: none;
+  margin-left: 18px;
+  padding-left: 0;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.nav-tags2 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color: #05016c;
-  padding-left: 1rem;
+  flex-direction: column;
+  /* align-items: center; */
+  /* margin: 1rem; */
+  line-height: 25px;
+}
+.nav-tags2 .num {
+  font-size: 1.5rem;
+}
+.nav-tags2 .red {
+  color: red;
+}
+.header {
   position: sticky;
   top: 0;
-  transition: background-color 0.3s ease;
-  z-index: 200;
-}
-.navbar .nav-tags {
-  margin-left: -14rem;
-  padding: 1rem;
-}
-.navbar .nav-tags ul {
+  width: 100%;
+  height: 110px;
+  z-index: 900;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-decoration: none;
-  list-style-type: none;
+  background-color: #04006c;
+  transition: all 0.5s ease;
 }
-.navbar .nav-tags ul li {
-  padding: 10px;
-  font-weight: 700;
-  font-size: 1rem;
+
+.header .logo {
+  width: 204px;
+  margin-left: 2rem;
+  margin-right: 60px;
+  transition: all 0.5s ease;
 }
-.navbar .nav-logo img {
-  height: 100px;
-  width: 200px;
-}
-.li-icon {
+
+.header .main-navigation ul {
   display: flex;
+  margin: 0 2rem 0 0;
+  padding: 0;
+}
+.menu-item a i {
+  font-size: 13px;
+  padding-left: 2px;
+  font-weight: 600;
+}
+.header .main-navigation #main-menu > .menu-item {
+  list-style: none;
+  padding: 0;
+  margin: 0 12px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.header .main-navigation .menu-item a {
+  color: #fff;
+  letter-spacing: -0.89px;
+}
+
+.header .main-navigation ul {
+  display: flex;
+  margin: 0 2rem 0 0;
+  padding: 0;
+}
+
+.main-navigation .sub-menu,
+.main-navigation .children {
+  position: absolute;
+  top: 25px;
+  font-weight: 400;
+  left: -999em;
+  z-index: 100;
+  border-radius: 3px;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+}
+.header .stock-price {
+  margin-right: 2rem;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.navbar .nav-tags2 {
+.stock_quote.sqitem.plus,
+.stock_quote.sqitem.plus:hover {
+  color: #009d59;
+}
+.header .stock-price__symbol {
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+}
+.header .stock-price__price {
+  color: #fff;
+  font-size: 22px;
+  line-height: 33px;
+  display: block;
+}
+.header .stock-price__change {
+  display: block;
+  font-size: 12px;
+  line-height: 1;
+}
+.hamburger {
+  width: 100px;
+  height: 100px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
   flex-direction: column;
-  /* align-items: center; */
-  margin: 1rem;
+  background-color: transparent;
+  border: 0;
+  display: none;
 }
-.navbar .nav-tags2 .num {
-  font-size: 1.5rem;
+.hamburger .line {
+  width: 26px;
+  height: 2px;
+  display: block;
+  background-color: #fff;
+  margin-bottom: 5px;
+  transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
 }
-.navbar .nav-tags2 .red {
-  color: red;
+
+@media screen and (max-width: 1280px) {
+  .main-navigation {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* cards media queries  */
+  .corporate-cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .corporate-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .earth {
+    flex-direction: column;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .stock-price .stock_quote {
+    display: none;
+  }
+  .tabs-navigation {
+    margin-bottom: 40px;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+  }
+  .mobile-heading {
+    margin-bottom: 20px;
+    display: block;
+  }
+  section.leadership {
+    max-width: 100%;
+    padding: 4rem 0 4rem;
+  }
+  ul.tabs-navigation > li > a {
+    color: #fff;
+    display: block;
+    padding: 1rem 2rem;
+    border: 2px solid #00e0ff;
+    border-radius: 50px;
+    padding: 1rem 0 1rem 1.35rem;
+  }
+  .tabs-navigation li {
+    margin: 0 0.8rem;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  /* cards media queries  */
+  .corporate-cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }
 
 /* home */
@@ -257,10 +443,10 @@ body {
 
 .home-content .home-right {
   position: absolute;
-  width: 60%;
+  width: 57%;
   height: 120%;
   background: transparent url(images/our-global-brands-background.svg) no-repeat;
-  top: 30%;
+  top: 22%;
   /* bottom: 0; */
   right: 0;
   background-size: contain;
@@ -279,7 +465,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #29f4d4;
+  border: 2px solid #9000e8;
   margin-top: 2rem;
   margin-right: 6rem;
   height: 24%;
@@ -287,6 +473,7 @@ body {
   position: relative;
   top: -18px;
 }
+
 .home-text .home-button button {
   margin: 1rem;
   font-size: 1rem;
@@ -438,9 +625,9 @@ body {
   position: relative;
   background-image: url(./images/careers-background.jpg);
   background-size: cover;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 100%;
-  height: auto;
+  height: 120vh;
   display: flex;
 }
 
@@ -478,6 +665,9 @@ body {
   margin-top: 2rem;
   margin-right: 6rem;
   border-radius: 30px;
+}
+.earth-arrow {
+  padding-top: 10px;
 }
 .earth-button button {
   margin: 1rem;
