@@ -53,5 +53,7 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 * Responsive design for mobile and desktop
 * Some interactive parts created using javascript libraries.
 * Implemented semantic HTML tags throughout the project to enhance accessibility, readibility and structure.
-* <hr>
+  <hr>
+
+
    
