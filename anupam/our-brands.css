@@ -5,6 +5,7 @@
   --text-white: #ffffff;
   --text-red: #d8442f;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -45,13 +46,6 @@ a {
   background-color: #04006c;
   transition: all 0.5s ease;
 }
-
-/* .header .logo {
-  width: 204px;
-  margin-left: 2rem;
-  margin-right: 60px;
-  transition: all 0.5s ease;
-} */
 .logo {
   width: 265px;
   margin-left: 2rem;
@@ -130,11 +124,6 @@ a {
   font-size: 22px;
   line-height: 33px;
   display: block;
-}
-.header .stock-price__change {
-  display: block;
-  font-size: 12px;
-  line-height: 1;
 }
 .hamburger {
   width: 100px;
@@ -323,10 +312,31 @@ div.box:hover img {
   .brands-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .header-image {
+    max-width: 75%;
+    margin: 2rem auto 2rem;
+  }
+  .logo {
+    width: 200px;
+    margin-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 512px) {
   .stock-price .stock_quote {
     display: none;
+  }
+  .header .stock-price {
+    margin-right: 0;
+  }
+  .logo {
+    width: 200px;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .brands-container {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
   }
 }
