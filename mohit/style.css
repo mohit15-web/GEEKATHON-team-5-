@@ -292,10 +292,10 @@ body {
 
 .home-content .home-right{
   position: absolute;
-  width: 60%;
+  width: 57%;
   height: 120%;
   background: transparent url(images/our-global-brands-background.svg) no-repeat;
-  top: 30%;
+  top: 22%;
   /* bottom: 0; */
   right: 0;
   background-size: contain;
@@ -314,7 +314,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #29f4d4;
+  border: 2px solid #9000e8;
   margin-top: 2rem;
   margin-right: 6rem;
   height: 24%;
@@ -323,6 +323,8 @@ body {
   top: -18px;
 
 }
+
+
 .home-text .home-button button {
   margin: 1rem;
   font-size: 1rem;
@@ -476,9 +478,9 @@ body {
   position: relative;
   background-image: url(./images/careers-background.jpg);
   background-size: cover;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 100%;
-  height: auto;
+  height: 120vh;
   display: flex;
 }
 
@@ -515,7 +517,9 @@ body {
   margin-top: 2rem;
   margin-right: 6rem;
   border-radius: 30px;
-
+}
+.earth-arrow{
+  padding-top: 10px;
 }
 .earth-button button {
   margin: 1rem;
