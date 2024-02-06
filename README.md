@@ -2,7 +2,7 @@
 Welcome to the Warner Bros. Discovery Website Clone! This project is a replica of the Warner Bros. Discovery website, developed using HTML, CSS , Flickity(JavaScript Library). In this README, you'll find all the information about this project.
 <hr>
 
-Hosted Link : [Click Here](https://mohit15-web.github.io/GEEKATHON-team-5-/)
+## Hosted Link : [Click Here](https://mohit15-web.github.io/GEEKATHON-team-5-/)
 
 <hr>
 
@@ -11,13 +11,21 @@ Hosted Link : [Click Here](https://mohit15-web.github.io/GEEKATHON-team-5-/)
 1.[Introduction]()
 
 2.[Project Overview]()
+
 3.[Features]()
+
 4.[Technologies Used]()
+
 5.[Getting Started]()
+
 6.[Contributing]()
+
 7.[Challenges Faced and Resolutions]()
+
 8.[License]()
+
 9.[Website UI Explanation]()
+
 <hr>
 
 ## Introduction:
@@ -29,6 +37,7 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 ## Projects
 
 * This project was assigned by [Geekster](https://www.geekster.in/home/new-full-stack-web-development-program) as a Major Project for a team of 7 members:
+  
    * Mohit Chaudhary (TEAM LEAD)
    * Anupam Yadav
    * Rajat Saxena
