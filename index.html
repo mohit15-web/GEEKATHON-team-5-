@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="" href="mohit/images/Warner_favicon.svg">
+    <!-- <link rel="icon" type="" href="mohit/images/Warner_favicon.svg"> -->
     <title>Warner Bros. Discovery</title>
     <link rel="stylesheet" href="./mohit/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -12,7 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    `
     <style>
         .main-carousel {
             width: 100%;
@@ -73,7 +73,7 @@
             font-size: 1rem;
         }
 
-        .navbar a{
+        .navbar a {
             text-decoration: none;
         }
 
@@ -101,40 +101,67 @@
 </head>
 
 <body>
-
-    <!-- NAVBAR -->
-    <div class="navbar">
-        <div class="nav-logo">
-            <img src="mohit/images/warner-bros-discovery-logo-horizontal-white.svg" alt="Warner Bros. Discovery">
+    <header class="header site-header">
+        <div class="logo">
+            <a href="https://wbd.com/">
+                <img src="https://wbd.com/wp-content/themes/warner-bros-discovery-corporate/img/warner-bros-discovery-logo-horizontal-white.svg"
+                    alt="Warner Bros. Discovery" />
+            </a>
         </div>
-        <div class="nav-tags">
-            <ul>
-                <li><a href="#">Our Leadership</a></li>
-                <li class="li-icon">Our Values <span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"
-                            style="width: 20px;">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg></span>
-                    <div class="dropdown-content">
-                        <a href="#">Guiding Principle</a>
-                        <a href="#">DEI</a>
-                        <a href="#">ESG</a>
-                    </div>
-                </li>
-                <li><a href="#">Our Brands</a>
 
+        <button class="mobile-menu-button">
+            <span class="screen-reader-text">Menu</span>
+            <span class="bar bar--1"></span>
+            <span class="bar bar--2"></span>
+            <span class="bar bar--3"></span>
+        </button>
+
+        <nav class="main-navigation">
+            <ul id="main-menu">
+                <li class="menu-item">
+                    <a href="/leadership/">Our Leadership</a>
                 </li>
-                <li><a href="#">NewsRooms</a></li>
-                <li><a href="./mohit/career.html">Careers</a></li>
-                <li><a href="#">Investor Relations</a></li>
+                <li class="menu-item">
+                    <a href="#">Our Values
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="https://wbd.com/guiding-principles/">Guiding Principles</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://wbd.com/dei/">DEI</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://wbd.com/esg/">ESG</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="https://wbd.com/our-brands/">Our Brands</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://wbd.com/newsroom/">Newsroom</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://wbd.com/careers/">Careers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://ir.wbd.com/">Investor Relations</a>
+                </li>
             </ul>
+        </nav>
+
+        <div class="stock-price">
+            <span class="stock_quote sqitem plus"><span class="stock-price__symbol">WBD</span><span
+                    class="stock-price__price"> 10.46</span><span class="stock-price__change"> +0.44</span></span>
+            <div class="hamburger">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
         </div>
-        <div class="nav-tags2">
-            <span>WBD</span>
-            <span class="num">10.02</span>
-            <span class="red">-0.08</span>
-        </div>
-    </div>
+    </header>
 
     <!-- home -->
     <div class="home-content">

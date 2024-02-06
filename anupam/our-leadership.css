@@ -105,7 +105,6 @@ body {
   animation-fill-mode: both;
 }
 .header .stock-price {
-  margin-right: 2rem;
   position: absolute;
   right: 0;
   display: flex;
@@ -289,6 +288,9 @@ div.leader::after {
   color: #00e0ff;
   padding-left: 1rem;
 }
+.tabs-check {
+  padding: 5px;
+}
 
 /* media queries  */
 @media screen and (max-width: 1280px) {
@@ -318,6 +320,9 @@ div.leader::after {
 @media screen and (max-width: 512px) {
   .stock-price .stock_quote {
     display: none;
+  }
+  .tabs-navigation a.active {
+    border-bottom: 2px solid #00e0ff;
   }
   .tabs-navigation {
     margin-bottom: 40px;

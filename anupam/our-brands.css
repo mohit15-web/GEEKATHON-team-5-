@@ -22,7 +22,6 @@ nav {
   top: 0;
   display: flex;
   align-items: center;
-  /* background-color: var(--dark-blue); */
   z-index: 999;
 }
 ul li {
@@ -46,12 +45,6 @@ a {
   transition: all 0.5s ease;
 }
 
-/* .header .logo {
-  width: 204px;
-  margin-left: 2rem;
-  margin-right: 60px;
-  transition: all 0.5s ease;
-} */
 .logo {
   width: 265px;
   margin-left: 2rem;
