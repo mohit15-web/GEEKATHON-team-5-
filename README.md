@@ -95,11 +95,25 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
      Open the project folder in your preferred code editor.
   4. ### Start the Application:
      Open the index.html file in your web browser or use a local development server if you have one configured.
-  5. The application should now be running locally, rendering HTML, CSS (including Tailwind CSS), and JavaScript.
+     
+  6. The application should now be running locally, rendering HTML, CSS (including Tailwind CSS), and JavaScript.
   <hr>
   
   ## Contributing:
   + We welcome contributions from the community. If you would like to contribute to the project, please follow these steps:
-    
+    1. Fork the repository.
+    2. Create a new branch for your feature or bug fix: git checkout -b feature-name.
+    3. Make your changes and commit them: git commit -m 'Add feature XYZ'.
+    4. Push to your forked repository: git push origin feature-name.
+    5. Create a pull request on the original repository.
+
+    <hr>
+
+    ## Challenges Faced and Resolutions:
+    Throughout the development of our Lalpathlabs Clone Website Project, our team encountered various challenges and obstacles. Here, we document some of the major issues we faced and the solutions we implemented:
+ 1. ## Challenge 1 - Integration of Third-party Libraries:
+    + One of the initial challenges was integrating third-party libraries and plugins seamlessly into our project.
+    + This was crucial for replicating specific functionalities from the original website.
+    + <b>Resolution:</b> We dedicated time to thoroughly understand the documentation of each library, sought help from online communities, and conducted trial-and-error testing until we successfully integrated them into our project.
 
    
