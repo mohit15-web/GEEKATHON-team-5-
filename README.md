@@ -61,16 +61,36 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 + Learning : Gain hands-on experience in web development, including HTML structure, CSS styling, and responsive design.
   <hr>
 ## Technologies Used:
-1. # HTML :
+1. ### HTML :
   + Used for structuring the web pagesincluding headers, navigation bars, content sections, and footers.
-2.CSS(including Tailwind CSS):
+    
+2.  ### CSS(including Tailwind CSS):
   + Applied for styling and layout.
   + Tailwind CSS: used for framework for rapid UI development, implementing responsive design and styling components efficiently.
-3.JavaScript:
+    
+3.   ### JavaScript:
   + JavaScript Libraries Used : Our Lalpathlabs Clone Website Project relies on several external libraries and dependencies to enhance its functionality and features. Below is a list of these libraries along with their purposes:
-4.Flickity-v2
+    
+4. ### Flickity-v2
   + Description: Flickity is a modern and highly flexible JavaScript library designed for creating responsive, touch-friendly sliders and carousels on websites and web applications.
   + Usage: It is used to implement some touch, responsive, flickable carousels and enhance the functionality of our website.
   + Documentation [official documentation for refrence](https://flickity.metafizzy.co/)
+    
+5. ### AOS - Animation  on scroll
+  + Description: Animation on Scroll" by Michał Sajnóg (michalsnik) is a JavaScript library that enables the creation of animations and effects triggered by scrolling.
+  + Usage: It used on some of our webpages to enhance the look and make our website more interactive.
+  + Documentation: [Official documentation for further details](https://michalsnik.github.io/aos/).
+
+6. ### Font Awesome (for icons)
+  + Description: Font Awesome is a comprehensive icon library that offers a vast selection of icons for various purposes, such as user interface design, web development and graphic design.
+  Usage:
+  + Include the CSS: Add the Font Awesome CSS stylesheet to your HTML document by including a link in the section.
+  + Add Icons: Insert icons into your HTML using the element with the appropriate class. Customize their appearance using CSS.
+  + Customize Icons: You can modify icons' size, color, and alignment by adding extra classes and applying CSS styles.
+  + Explore Icons: Visit the Font Awesome website or documentation to find the icons that suit your project's needs.
+  + Documentation: [Official documentation for further details.](https://fontawesome.com/)
+
+## Getting Started:
++ To get started with the PathLab Website Clone, follow these steps
 
    
