@@ -138,5 +138,5 @@ Throughout the development of our Lalpathlabs Clone Website Project, our team en
  + This Project is Licensed under the  [Geekster](https://www.geekster.in/home/new-full-stack-web-development-program)
  + You are free to use and modify this code for your own purposes.
 
-   <img src=" https://www.geekster.in/images/logo/g.svg" width="100" height="100">
+   <img src="https://www.geekster.in/Logo.svg" width="100" height="100">
 
