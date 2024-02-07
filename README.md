@@ -89,6 +89,17 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 
 ## Getting Started:
 + To get started with the Warner Bros. Discovery Website Clone, follow these steps
-  + ### Clone the Repository:
+  1. ### Clone the Repository:
+  2. ### Open the project Directory
+  3. ### Open in a Code Editor:
+     Open the project folder in your preferred code editor.
+  4. ### Start the Application:
+     Open the index.html file in your web browser or use a local development server if you have one configured.
+  5. The application should now be running locally, rendering HTML, CSS (including Tailwind CSS), and JavaScript.
+  <hr>
+  
+  ## Contributing:
+  + We welcome contributions from the community. If you would like to contribute to the project, please follow these steps:
+    
 
    
