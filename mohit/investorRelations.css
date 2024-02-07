@@ -264,6 +264,11 @@ input[type="text"]::placeholder {
   width: 150px;
 }
 
+.search-section .secondSection button:hover{
+  background-color: #29f4d4;
+  color: #04006c;
+}
+
 /* footer */
 .footer {
   width: 100%;
