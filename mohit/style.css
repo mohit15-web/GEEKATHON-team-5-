@@ -8,165 +8,11 @@
   /* background-color: #05016C; */
   color: white;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.mobile-menu-button {
-  display: none;
-}
-*,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-a:link {
-  color: #015cfe;
-}
-div {
-  display: block;
-}
-a {
-  text-decoration: none;
-}
-img {
-  vertical-align: middle;
-}
-ul,
-ol {
-  list-style: none;
-  margin-left: 18px;
-  padding-left: 0;
-}
-body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
-}
-.header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 110px;
-  z-index: 900;
-  display: flex;
-  align-items: center;
-  background-color: #04006c;
-  transition: all 0.5s ease;
-}
-
-.header .logo {
-  width: 204px;
-  margin-left: 2rem;
-  margin-right: 60px;
-  transition: all 0.5s ease;
-}
-
-.header .main-navigation ul {
-  display: flex;
-  margin: 0 2rem 0 0;
-  padding: 0;
-}
-.menu-item a i {
-  font-size: 13px;
-  padding-left: 2px;
-  font-weight: 600;
-}
-.header .main-navigation #main-menu > .menu-item {
-  list-style: none;
-  padding: 0;
-  margin: 0 12px;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 27px;
-}
-
-.header .main-navigation .menu-item a {
-  color: #fff;
-  letter-spacing: -0.89px;
-}
-
-.header .main-navigation ul {
-  display: flex;
-  margin: 0 2rem 0 0;
-  padding: 0;
-}
-
-.main-navigation .sub-menu,
-.main-navigation .children {
-  position: absolute;
-  top: 25px;
-  font-weight: 400;
-  left: -999em;
-  z-index: 100;
-  border-radius: 3px;
-  animation-duration: 0.3s;
-  animation-fill-mode: both;
-}
-.header .stock-price {
-  margin-right: 2rem;
-  position: absolute;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.stock_quote.sqitem.plus,
-.stock_quote.sqitem.plus:hover {
-  color: #009d59;
-}
-.header .stock-price__symbol {
-  color: #fff;
-  display: block;
-  font-size: 13px;
-  line-height: 1;
-}
-.header .stock-price__price {
-  color: #fff;
-  font-size: 22px;
-  line-height: 33px;
-  display: block;
-}
-.header .stock-price__change {
-  display: block;
-  font-size: 12px;
-  line-height: 1;
-  color: red;
-}
-.hamburger {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 99999;
-  flex-direction: column;
-  background-color: transparent;
-  border: 0;
-  display: none;
-}
-.hamburger .line {
-  width: 26px;
-  height: 2px;
-  display: block;
-  background-color: #fff;
-  margin-bottom: 5px;
-  transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
-  cursor: pointer;
-}
-
-/* navbar styling ends here  */
+/* html{
+  background: #000 !important;
+  color: #0f0 !important;
+  outline:solid  #f00 1px !important;
+} */
 body {
   overflow-x: hidden;
 }
@@ -443,10 +289,10 @@ body {
 
 .home-content .home-right {
   position: absolute;
-  width: 57%;
+  width: 60%;
   height: 120%;
   background: transparent url(images/our-global-brands-background.svg) no-repeat;
-  top: 22%;
+  top: 30%;
   /* bottom: 0; */
   right: 0;
   background-size: contain;
@@ -465,7 +311,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #9000e8;
+  border: 2px solid #29f4d4;
   margin-top: 2rem;
   margin-right: 6rem;
   height: 24%;
@@ -473,7 +319,6 @@ body {
   position: relative;
   top: -18px;
 }
-
 .home-text .home-button button {
   margin: 1rem;
   font-size: 1rem;
@@ -625,9 +470,9 @@ body {
   position: relative;
   background-image: url(./images/careers-background.jpg);
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100%;
-  height: 120vh;
+  height: auto;
   display: flex;
 }
 
@@ -636,7 +481,6 @@ body {
 }
 .earth-right {
   width: 50%;
-  display: none;
 }
 .earth h1 {
   font-size: 4rem;
@@ -665,9 +509,6 @@ body {
   margin-top: 2rem;
   margin-right: 6rem;
   border-radius: 30px;
-}
-.earth-arrow {
-  padding-top: 10px;
 }
 .earth-button button {
   margin: 1rem;
@@ -722,25 +563,4 @@ body {
   align-items: center;
   font-size: 0.5rem;
   line-height: 15px;
-}
-
-/* media queries by Anupam  */
-@media screen and (max-width: 1280px) {
-  .main-navigation {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 512px) {
-  .stock-price .stock_quote {
-    display: none;
-  }
-  .home-text {
-    text-align: center;
-  }
 }
