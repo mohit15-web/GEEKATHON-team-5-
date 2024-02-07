@@ -62,10 +62,16 @@
   .navbar .nav-tags2 .red {
     color: red;
   }
+  /*2nd navigation bar*/
   .header-sub-navigation{
-    border-top: 1px solid #434091;
+    /*
+    width:100%;
+    height:50px;
+    top:25px;
+    border-top: 1px solid red;
     background-color: #05016c;
-    padding:16px 0;
+    padding:16px 0;*/
+    border:2px solid red;
 
   }
   .heading1{
