@@ -88,6 +88,7 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
   + Documentation: [Official documentation for further details.](https://fontawesome.com/)
 
 ## Getting Started:
-+ To get started with the PathLab Website Clone, follow these steps
++ To get started with the Warner Bros. Discovery Website Clone, follow these steps
+  + ### Clone the Repository:
 
    
