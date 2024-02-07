@@ -57,7 +57,7 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 + Functionality : Implement essential functionalities such as test booking, test package displays, lab locator, and contact information retrieval.
 + Learning : Gain hands-on experience in web development, including HTML structure, CSS styling, and responsive design.
   <hr>
-## Technologies Used:
+## Technologies Used: ![html5](https://camo.githubusercontent.com/6acc986e35fc67011f7f64e779ca3d25ce7a6576ab52e39affcb2c1009e38150/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f68746d6c2d352e706e67)
 1. ### HTML :
   + Used for structuring the web pagesincluding headers, navigation bars, content sections, and footers.
     
