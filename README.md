@@ -36,15 +36,12 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 
 ## Projects
 
-* This project was assigned by [Geekster](https://www.geekster.in/home/new-full-stack-web-development-program) as a Major Project for a team of 7 members:
+* This project was assigned by [Geekster](https://www.geekster.in/home/new-full-stack-web-development-program) as a Major Project for a team of 4 members:
    * Arvind Yadav ( Mentor )
    * Mohit Chaudhary (TEAM LEAD)
    * Anupam Yadav
    * Rajat Saxena
    * Shubham Chendake
-   * Kishore
-   * Rohit Pathak
-   * Nitin
 * It was an exciting opportunity for us to apply our skills and collaborate with fellow learners to create a functional and polished clone of the PathLab website.
   <hr>
 
