@@ -8,9 +8,9 @@ Welcome to the Warner Bros. Discovery Website Clone! This project is a replica o
 
 ## Table of Contents:-
 
-1.[Introduction]()
+1.[Introduction](#Introduction)
 
-2.[Project Overview]()
+2.[Project Overview](#Features)
 
 3.[Features]()
 
