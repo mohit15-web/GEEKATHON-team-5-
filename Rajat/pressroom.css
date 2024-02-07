@@ -74,11 +74,12 @@ h2{
 }
 .box1{
     width:100vw;
-    height:90px;
+    height:158px;
     background-color: #ffffff;
     display: flex;
     
 }
+
 .apps{
     color:#04006C;
 }
@@ -100,8 +101,16 @@ a{
     padding:7px;
 }
 .item2{
+    position: relative;
+    top:50%;
+    left:50%;
+    border:2px solid black;
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    color:#04006C;
+    font:16px bold;
+    cursor:pointer;
+    padding:0 2% 0 2%;
 }
 .title{
     font-size: 36px;
@@ -119,7 +128,7 @@ a{
     
 }
 .image1{
-    height:30%;
+    height:40%;
     width:35%;
     background-color: #04006C;
 }
@@ -128,7 +137,7 @@ a{
     justify-content: space-between;
 }
 .image3{
-    height:30%;
+    height:35%;
     width:35%;
     background-color: #04006C;
     margin:0px 7px 7px 0px;
@@ -140,8 +149,8 @@ a{
 
 }
 .image2{
-   /* height:35vh;*/
-    width:50vw;
+    /*height:45%;*/
+    width:55%;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -151,20 +160,44 @@ a{
    
     
 }
-.extra{
+.extra1{
+    text-align: center;
     justify-content: center;
     background-color: transparent;
-    height: 10%;
-    width:10%;
+    height: 8%;
+    width:8%;
     border:2px solid black;
     color:black;
     border-radius: 5px;
     text-decoration: none;
+    position:relative;
+    left:39%;
+}
+.extra1:hover{
+    background-color: #04006C;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+}
+.extra{
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 6%;
+    width:9%;
+    border:2px solid black;
+    color:black;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    right:5%;
+    font-size: small;
 }
 .extra:hover{
     background-color: #04006C;
     color:#fff;
     text-align: center;
+    text-decoration: none;
 }
 .container1 h2{
     font-size: 36px;
@@ -177,11 +210,11 @@ a{
 .part2{
     font-style: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .part3{
-    height:30%;
-    width:30%;
+    height:20%;
+    width:20%;
 }
 .part6{
     display: flex;
