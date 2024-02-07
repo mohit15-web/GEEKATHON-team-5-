@@ -166,6 +166,8 @@ ul.tabs-navigation > li > a {
   color: #fff;
   display: block;
   padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
 }
 .tabs-navigation a.active {
   border-bottom: 2px solid white;
@@ -288,8 +290,11 @@ div.leader::after {
   color: #00e0ff;
   padding-left: 1rem;
 }
-.tabs-check {
+#tabs-check1,
+#tabs-check2,
+#tabs-check3 {
   padding: 5px;
+  display: none !important ;
 }
 
 /* media queries  */
@@ -358,5 +363,16 @@ div.leader::after {
   .corporate-cards {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+
+  #tabs-check1,
+  #tabs-check2,
+  #tabs-check3 {
+    padding: 5px;
+    display: flex;
+  }
+  .tabs-navigation a {
+    display: flex;
+    align-items: center;
   }
 }
