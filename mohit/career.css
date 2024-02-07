@@ -12,6 +12,9 @@
   outline:solid  #f00 1px !important;
 } */
 
+body {
+  overflow-x: hidden;
+}
 
 .navbar {
   display: flex;
@@ -65,10 +68,10 @@
 }
 
 /* career-vide  */
-.video-container{
+.video-container {
   max-width: 100%;
 }
-.video-container video{
+.video-container video {
   width: 100%;
   height: 100%;
 }
@@ -164,9 +167,8 @@
   text-align: justify;
   font-size: 1.5rem;
   line-height: 31px;
-
 }
-.career-left p{
+.career-left p {
   position: relative;
   z-index: 10;
 }
