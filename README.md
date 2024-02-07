@@ -37,7 +37,7 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 ## Projects
 
 * This project was assigned by [Geekster](https://www.geekster.in/home/new-full-stack-web-development-program) as a Major Project for a team of 7 members:
-  
+   * Arvind Yadav ( Mentor )
    * Mohit Chaudhary (TEAM LEAD)
    * Anupam Yadav
    * Rajat Saxena
