@@ -16,11 +16,11 @@ Welcome to the Warner Bros. Discovery Website Clone! This project is a replica o
 
 4.[Technologies Used](#Objectives)
 
-5.[Getting Started](#Technologies Used)
+5.[Getting Started](#Technologies)
 
 6.[Contributing](#Contributing)
 
-7.[Challenges Faced and Resolutions](#Challenges Faced and Resolutions)
+7.[Challenges Faced and Resolutions](#Challenges)
 
 8.[License](License)
 
@@ -61,7 +61,7 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 + Learning : Gain hands-on experience in web development, including HTML structure, CSS styling, and responsive design.
   <hr>
 ## Technologies Used:
-1.HTML :
+1. # HTML :
   + Used for structuring the web pagesincluding headers, navigation bars, content sections, and footers.
 2.CSS(including Tailwind CSS):
   + Applied for styling and layout.
