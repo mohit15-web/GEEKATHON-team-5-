@@ -109,11 +109,33 @@ Warner Bros. Discovery Clone is a leading global entertainment company, formed t
 
     <hr>
 
-    ## Challenges Faced and Resolutions:
-    Throughout the development of our Lalpathlabs Clone Website Project, our team encountered various challenges and obstacles. Here, we document some of the major issues we faced and the solutions we implemented:
- 1. ## Challenge 1 - Integration of Third-party Libraries:
+## Challenges Faced and Resolutions:
+Throughout the development of our Lalpathlabs Clone Website Project, our team encountered various challenges and obstacles. Here, we document some of the major issues we faced and the solutions we implemented:
+    
+ 1. ### Challenge 1 - Integration of Third-party Libraries:
     + One of the initial challenges was integrating third-party libraries and plugins seamlessly into our project.
     + This was crucial for replicating specific functionalities from the original website.
-    + <b>Resolution:</b> We dedicated time to thoroughly understand the documentation of each library, sought help from online communities, and conducted trial-and-error testing until we successfully integrated them into our project.
+    + **Resolution:** We dedicated time to thoroughly understand the documentation of each library, sought help from online communities, and conducted trial-and-error testing until we successfully integrated them into our project.
+2. ### Challenge 2 - Cross-browser Compatibility:
+    + Ensuring that our website looked and functioned consistently across different web browsers posed a significant challenge.
+    + **Resolution:** We performed rigorous testing and debugging across various browsers, identifying and rectifying CSS and JavaScript compatibility issues.
+    + This involved adjusting styles and optimizing code to achieve a cohesive user experience.
+3. ### Challenge 3 - Responsive Design:
+    + Creating a responsive design that adapted seamlessly to different screen sizes and devices required careful planning and execution.
+    + **Resolution:** We adopted a desktop-first design approach and utilized CSS media queries extensively.
+    + Regular testing on various devices allowed us to fine-tune the responsiveness of our website.
+4. ### Challenge 4 - Team Collaboration and Version Control:
+    + Coordinating tasks among team members and ensuring smooth version control throughout the project proved to be a challenge.
+    + **Resolution:** We implemented a version control system (e.g., Git and GitHub) and established clear branching and merging processes.
+    + Regular team meetings and communication channels, such as Slack and zoom/ google meet, facilitated collaboration and issue tracking.
 
-   
+*By acknowledging these challenges and sharing our solutions, we hope to provide insights into our development process and demonstrate our team's problem-solving abilities. Overcoming these obstacles has contributed to the successful completion of the Warner Bros Discovery Clone Website Project.*
+
+<hr>
+
+## License:
+
+ + This Project is Licensed under the  [Geekster](https://www.geekster.in/home/new-full-stack-web-development-program)
+ + You are free to use and modify this code for your own purposes.
+   <img src=" https://www.geekster.in/images/logo/g.svg" width="100" height="100">
+
