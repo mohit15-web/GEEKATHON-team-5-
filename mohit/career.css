@@ -13,10 +13,12 @@
 } */
 html{
   scroll-behavior: smooth;
+  
 }
 
 body {
   overflow-x: hidden;
+  margin-bottom: -500px;
 }
 
 .navbar {
@@ -229,7 +231,6 @@ button:hover {
   background-position: center;
   height: auto;
   padding: 1rem 7rem;
-  position: relative;
   position: relative;
   top: -200px;
 }
