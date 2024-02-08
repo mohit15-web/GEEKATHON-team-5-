@@ -268,7 +268,7 @@ div.box:hover img {
 }
 .first-cols {
   text-align: start;
-  grid-column-start: 3;
+  grid-column-start: 4;
   grid-column-end: 9;
 }
 .first-cols {
@@ -318,6 +318,18 @@ div.box:hover img {
   .logo {
     width: 200px;
     margin-left: 1rem;
+  }
+  .footer-container {
+    padding-top: 2rem;
+    /* margin-left: 4rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  .first-cols {
+    padding-left: 2rem;
   }
 }
 
