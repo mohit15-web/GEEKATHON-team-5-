@@ -252,6 +252,9 @@ body {
   .home-head {
     width: 100%;
   }
+  .home-button{
+    display: none !important;
+  }
   .home-head h1{
     font-size: 2.5rem !important;
   }
@@ -310,6 +313,12 @@ body {
   margin: 1rem;
   padding: 1rem 0;
   /* border: 2px solid #29f4d4; */
+}
+.latest-news .cards .card p{
+  font-size: 0.9rem !important;
+}
+.spotlight-cards .card p{
+  font-size: 0.7rem !important;
 }
 
 .main-carousel2 img {
