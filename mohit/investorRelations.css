@@ -20,21 +20,18 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  /* line-height: 1.5; */
   color: #212529;
   text-align: left;
   background-color: #fff;
 }
 
 .navbar {
-  /* position: sticky; */
-  /* top: 0; */
   width: 100%;
   height: 110px;
-  z-index: 900;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,28 +73,29 @@ body {
 
 .video-container {
   width: 100%;
+  height: 100vh;
+  background-color: #0022af;
 }
 
 .video-container video {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* heading2 */
 .heading2 {
   width: 100%;
   display: flex;
-  position: relative;
-  top: -7px;
-
 }
+
 .heading2 .left {
   width: 50%;
   background-image: url(./images/financial_news.png);
-}
-.left h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
-  padding: 3rem 0;
-  text-align: center;
 }
 
 .heading2 .right {
@@ -115,12 +113,11 @@ body {
 .ir-text {
   width: 100%;
   display: flex;
-  background-color: #5029F2;
+  background-color: #5029f2;
   padding: 5rem 8rem;
   gap: 3rem;
-  /* position: relative; */
-  /* top: -7px; */
 }
+
 .ir-text .first {
   width: 30%;
 }
@@ -131,7 +128,7 @@ body {
   /* padding: 1rem 0; */
   margin-top: 1rem;
 }
-.first .content-text{
+.first .content-text {
   width: 100%;
   font-size: 1.2rem;
   padding-bottom: 10px;
@@ -140,8 +137,8 @@ body {
 /* hr{
   color: white;
 } */
-.first .first-content .content-logo{
-    margin-right: 1rem;
+.first .first-content .content-logo {
+  margin-right: 1rem;
 }
 /* .first .first-content .content-text h3{
     font-size: 1rem;
@@ -149,86 +146,82 @@ body {
 }*/
 .first .first-content .content-logo i {
   font-size: 2rem;
-} 
+}
 .ir-text .second {
   width: 30%;
 }
-.ir-text .second .ptag{
+.ir-text .second .ptag {
   padding: 1.2rem;
 }
 
-.ir-text .second h2{
+.ir-text .second h2 {
   padding: 0.7rem 1.2rem;
 }
 
-.ir-text .second .blue-text{
+.ir-text .second .blue-text {
   display: flex;
   justify-content: space-between;
   padding: 1.2rem;
   font-size: 1.3rem;
-  
 }
 .ir-text .third {
   width: 29%;
-  position: relative;
-  top: -40px;
+  /* position: relative; */
+  /* top: -40px; */
 }
-.ir-text .third p{
+.ir-text .third p {
   margin: 15px 0;
   font-size: 1.3rem;
-  
 }
 
 /* stock quote */
-.stock-quote{
-    width: 100%;
-    background-color: #0022af;
-    /* position: relative;
-    top: -55px; */
+.stock-quote {
+  width: 100%;
+  background-color: #0022af;
+  border: 1px solid transparent;
 }
-.stock-quote-container{
-    width: 40%;
-    margin: 7rem auto;
-    /* padding-top: 8rem; */
-    background-color: #04006c;
-    padding: 2rem;
+.stock-quote-container {
+  width: 40%;
+  margin: 3rem auto;
+  /* padding-top: 8rem; */
+  background-color: #04006c;
+  padding: 2rem;
 }
 
-.stock-quote-container .quote1{
+.stock-quote-container .quote1 {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.stock-quote-container .quote2{
+.stock-quote-container .quote2 {
   width: 11%;
   border-bottom: 4px solid white;
   margin-bottom: 3rem;
 }
 
-.stock-quote-container .quote3{
+.stock-quote-container .quote3 {
   text-align: center;
   margin-bottom: 3rem;
 }
 
-.stock-quote-container .quote4{
+.stock-quote-container .quote4 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3rem;
 }
 
-.stock-quote-container .quote5{
+.stock-quote-container .quote5 {
   text-align: center;
   margin-bottom: 3rem;
-
 }
 
-.stock-quote-container .quote6{
+.stock-quote-container .quote6 {
   text-align: center;
   margin-bottom: 2rem;
 }
 
- /* input box section */
- .search-section{
+/* input box section */
+.search-section {
   width: 100%;
   background-image: url(./images/email-alerts-bg.jpg);
   background-position: center;
@@ -236,41 +229,45 @@ body {
   justify-content: center;
   align-items: center;
   padding: 4rem 5rem;
- }
+}
 
- .search-section .firstSection h1{
-    font-size: 2rem;
-    padding: 1rem;
- }
- .search-section .firstSection p{
+.search-section .firstSection h1 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.search-section .firstSection p {
   font-size: 1rem;
   padding: 0 1rem;
 }
 
 .search-section .secondSection input[type="text"] {
   margin-left: 3rem;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    font-size: 16px;
-    width: 40rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  width: 40rem;
 }
 
 input[type="text"]::placeholder {
-    color: #999; 
-    font-style: italic; 
+  color: #999;
+  font-style: italic;
 }
 
-.search-section .secondSection button{
+.search-section .secondSection button {
   margin-left: 1rem;
   background: transparent;
-  border: 1px solid #29F4D4;
+  border: 1px solid #29f4d4;
   border-radius: 25px;
   padding: 10px;
   font-size: 16px;
   width: 150px;
 }
 
+.search-section .secondSection button:hover{
+  background-color: #29f4d4;
+  color: #04006c;
+}
 
 /* footer */
 .footer {

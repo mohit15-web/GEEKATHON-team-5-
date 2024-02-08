@@ -183,7 +183,11 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+<<<<<<< HEAD
   .nav-tags2 {
+=======
+  .nav-tags2{
+>>>>>>> d066ca94e1a3248c9be4e2c542c10d8d7f6fc88d
     display: none;
   }
   .main-navigation {
@@ -203,7 +207,11 @@ body {
 }
 
 @media screen and (max-width: 810px) {
+<<<<<<< HEAD
   .nav-tags2 {
+=======
+  .nav-tags2{
+>>>>>>> d066ca94e1a3248c9be4e2c542c10d8d7f6fc88d
     display: none;
   }
   .corporate-cards {
