@@ -11,6 +11,9 @@
   color: #0f0 !important;
   outline:solid  #f00 1px !important;
 } */
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   overflow-x: hidden;
