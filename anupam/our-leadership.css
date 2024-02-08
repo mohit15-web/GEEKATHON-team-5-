@@ -483,6 +483,11 @@ div.leader::after {
     width: 200px;
     margin-left: 1rem;
   }
+  .tabs-navigation li a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
 }
 @media screen and (max-width: 450px) {
   .brands-container {
