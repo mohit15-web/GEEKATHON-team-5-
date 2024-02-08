@@ -82,11 +82,33 @@ h2{
 }
 
 .apps{
+    display: flex;
+    justify-content: space-between;
+    color:#04006C;
+    margin-right: 5%;
+    font-weight: bolder;
+}
+.apps .menu:hover{
+    text-decoration: underline;
+    color:#04006C;
+}
+.apps1{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.apps1 .search-action:hover{
+    text-decoration: underline;
     color:#04006C;
 }
 .search-action{
     background-color: transparent;
     color:#04006C;
+}
+.menu{
+    color:#04006C;
+    font-size: 1.4rem;
+    font-style: bold;
 }
 p{
 font-size: 16px Beatrice-bold;
@@ -105,13 +127,13 @@ a{
     position: relative;
     top:50%;
     left:50%;
-    border:2px solid black;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color:#04006C;
     font:16px bold;
     cursor:pointer;
     padding:0 2% 0 2%;
+    width:20%;
 }
 .title{
     font-size: 36px;
@@ -138,7 +160,7 @@ a{
     justify-content: space-between;
 }
 .image3{
-    height:35%;
+    height:52%;
     width:35%;
     background-color: #04006C;
     margin:0px 7px 7px 0px;
@@ -150,7 +172,7 @@ a{
 
 }
 .image2{
-    height:600px;
+    height:620px;
     width:55%;
     display:flex;
     flex-direction: row;
@@ -184,7 +206,7 @@ a{
     text-align: center;
     justify-content: center;
     background-color: transparent;
-    height: 6%;
+    height: 4%;
     width:9%;
     border:2px solid black;
     color:black;
@@ -192,7 +214,6 @@ a{
     text-decoration: none;
     position: relative;
     right:5%;
-    font-size: small;
 }
 .extra:hover{
     background-color: #04006C;
