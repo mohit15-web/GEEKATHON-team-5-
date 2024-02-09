@@ -55,11 +55,9 @@ p {
 abbr[data-original-title],
 abbr[title] {
     text-decoration: underline;
-    -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted;
     cursor: help;
     border-bottom: 0;
-    -webkit-text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
 }
 address {
@@ -203,9 +201,7 @@ select {
 [type="button"],
 [type="reset"],
 [type="submit"],
-button {
-    -webkit-appearance: button;
-}
+
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
@@ -227,9 +223,7 @@ input[type="radio"] {
 input[type="date"],
 input[type="datetime-local"],
 input[type="month"],
-input[type="time"] {
-    -webkit-appearance: listbox;
-}
+
 textarea {
     overflow: auto;
     resize: vertical;
@@ -260,7 +254,6 @@ progress {
 }
 [type="search"] {
     outline-offset: -2px;
-    -webkit-appearance: none;
 }
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
@@ -298,7 +291,6 @@ template {
             user-select: none;
 
     -webkit-touch-callout: none;
-    -khtml-user-select: none;
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
