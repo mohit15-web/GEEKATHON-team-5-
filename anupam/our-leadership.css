@@ -534,5 +534,4 @@ div.leader::after {
 }
 li.drop:hover div.dropdown-content {
   display: block;
-  color: #04006c;
 }
