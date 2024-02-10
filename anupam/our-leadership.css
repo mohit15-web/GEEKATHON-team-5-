@@ -331,9 +331,18 @@ div.leader::after {
   .stock-price .stock_quote {
     display: none;
   }
-  .tabs-navigation a.active {
-    border-bottom: 2px solid #00e0ff;
+  #tabs-check2,
+  #tabs-check3 {
+    display: none;
   }
+  .tabs-navigation a {
+    border: 2px solid white;
+  }
+  .tabs-navigation a.active {
+    border: 2px solid #ffffff;
+    color: rgb(255, 255, 255);
+  }
+
   .tabs-navigation {
     margin-bottom: 40px;
     gap: 1rem;
@@ -351,11 +360,11 @@ div.leader::after {
   }
   ul.tabs-navigation > li > a {
     color: #fff;
-    display: block;
+    display: flex;
     padding: 1rem 2rem;
     border: 2px solid #00e0ff;
     border-radius: 50px;
-    padding: 1rem 0 1rem 1.35rem;
+    padding: 1rem 0 1rem 0;
   }
   .tabs-navigation li {
     margin: 0 0.8rem;
@@ -370,12 +379,12 @@ div.leader::after {
     grid-template-rows: auto;
   }
 
-  #tabs-check1,
+  /* #tabs-check1,
   #tabs-check2,
   #tabs-check3 {
     padding: 5px;
     display: inline-block;
-  }
+  } */
   .tabs-navigation a {
     display: flex;
     align-items: center;
