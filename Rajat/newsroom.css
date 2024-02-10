@@ -100,7 +100,7 @@ a{
     color:#fff;
     position:relative;
 }
- a{
+ .content .tabs a{
     color:#fff;
     position:relative;
     display:block;
