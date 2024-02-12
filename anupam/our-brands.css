@@ -351,3 +351,33 @@ div.box:hover img {
     gap: 0.8rem;
   }
 }
+.drop {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 186px;
+  top: 25px;
+  font-weight: 400;
+  border-radius: 5px;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  padding: 14px 0;
+  text-align: center;
+  display: none;
+}
+
+.dropdown-content .dropdown-tags {
+  padding-left: 1.6rem;
+  padding-block: 0.7rem;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  text-align: left;
+}
+li.drop:hover div.dropdown-content {
+  display: block;
+}
